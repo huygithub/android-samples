@@ -4,7 +4,19 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "huygithub.com.multiprocessapp"
+        // The following are the list of app IDs that we can use.
+        // Certain IDs will cause the main activity to be flickered forever after
+        // it kills the 2nd process that hosts the 2nd activity.
+        //
+        // GOOD: applicationId "huygithub.com.multiprocessapp"
+        // GOOD: applicationId "com.viber.voip"
+        // BAD: applicationId "com.roblox.client"
+        // GOOD: applicationId "com.robloxlabs.client.dev"
+        // BAD: applicationId "com.playxiangqi.hoxchess"
+        // BAD: applicationId "com.google.android.chess"
+
+        applicationId "com.google.android.chess"
+
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1

@@ -4,4 +4,5 @@
     <string name="kill_second_process_button">Kill the 2nd process</string>
     <string name="second_activity_text">The 2nd activity in a new process</string>
     <string name="go_back_text">Go back</string>
+    <string name="second_activity_label">The second activity</string>
 </resources>
