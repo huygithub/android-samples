@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiProcess App</string>
+    <string name="start_new_activity_button">Start activity in new process</string>
+    <string name="kill_second_process_button">Kill the 2nd process</string>
+    <string name="second_activity_text">The 2nd activity in a new process</string>
+    <string name="go_back_text">Go back</string>
+</resources>
